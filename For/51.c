@@ -7,7 +7,7 @@ int main()
     {
         for (j = 1; j <= 100; j++)
         {
-            for (k = 1; k <= 100; k++)
+            for (k = 1; k < 101; k++)
             {
                 printf("Ola %d %d %d\n", i, j, k);
             }

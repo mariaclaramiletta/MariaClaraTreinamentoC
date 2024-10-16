@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main()
 {
-    int começo = -234;
+    int comeco = -234;
     int final = 456;
-    for (int i = começo; i <= final; i++)
+    for (int i = comeco; i <= final; i++)
     {
         printf("Numero %d\n", i);
     }
