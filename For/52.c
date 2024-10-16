@@ -1,11 +1,13 @@
-//Media de notas
+// Media de notas
 #include <stdio.h>
-int main() {
+int main()
+{
     float nota, soma = 0, media;
     int i;
-    for (i = 1; i <= 10; i++) {
-       printf("Digite a nota %d: ", i);
-       scanf("%f", &nota);
+    for (i = 1; i <= 10; i++)
+    {
+        printf("Digite a nota %d: ", i);
+        scanf("%f", &nota);
         soma += nota;
     }
     media = soma / 10;
